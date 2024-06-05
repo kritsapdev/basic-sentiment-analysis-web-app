@@ -14,22 +14,27 @@
           <title>sentiment analysis web app</title>
         </div>
         <h1 class="header text-center">Sentiment Analysis Web App</h1>
-        <p class="desc">
-          Create by Flask , Python , Bootstrap
+        <p class="desc text-center">
+          Create by Flask , Bootstrap
         </p>
         <form method="POST" onSubmit="return validate();" class="form">
           
           <div class="form-floating mb-3">
-            <input type="text" name="text" class="form-control" id="floatingInput" placeholder="I love you">
+            <input type="text" name="text" class="form-control"  id="floatingInput" placeholder="I love you">
             <label for="floatingInput">Type a sentence and click submit button.</label>
 
-            <p   id="demo"><h3 class="text-center  {{ color }}">{{ variable }}</h3></p>
-
-            <button type="submit" class="btn btn-outline-primary mt-2" onclick="this.form.submit();">
-              Submit
-            </button>
-
+          
               
+ <h5 class="text-center mt-2">Your sentence is " {{text}} " and it's
+ <span class="{{ color }}">  {{ variable }}</span></h5>
+
+
+              <div class=" d-flex justify-content-center">
+            <button type="submit" class="btn btn-outline-primary mt-2 text-center" onclick="this.form.submit();">
+              Submit
+            </button></div>
+
+
           </div>
 
 

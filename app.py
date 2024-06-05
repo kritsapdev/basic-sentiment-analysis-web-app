@@ -23,14 +23,14 @@ def my_form_post():
     sid = SentimentIntensityAnalyzer()
     score = ((sid.polarity_scores(str(text))))['compound']
     if(score > 0):
-        label = 'This sentence is positive'
+        label = 'positive'
         col = 'text-success'
     elif(score == 0):
-        label = 'This sentence is neutral'
+        label = 'neutral'
         col = 'text-primary'
     else:
-        label = 'This sentence is negative'
+        label = 'negative'
         col = 'text-danger'
-    return(render_template('index.html', variable=label , color = col))
+    return(render_template('index.html', text = text ,variable=label , color = col))
 if __name__ == "__main__":
     app.run(port='8088', threaded=False, debug=True)
