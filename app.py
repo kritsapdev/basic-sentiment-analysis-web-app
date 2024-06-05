@@ -6,6 +6,7 @@ from flask import Flask, render_template
 from dotenv import load_dotenv
 from flask_cors import CORS
 
+
 load_dotenv()
 app = Flask(__name__)
 CORS(app)
@@ -23,10 +24,13 @@ def my_form_post():
     score = ((sid.polarity_scores(str(text))))['compound']
     if(score > 0):
         label = 'This sentence is positive'
+        col = 'text-success'
     elif(score == 0):
         label = 'This sentence is neutral'
+        col = 'text-primary'
     else:
         label = 'This sentence is negative'
-    return(render_template('index.html', variable=label))
+        col = 'text-danger'
+    return(render_template('index.html', variable=label , color = col))
 if __name__ == "__main__":
     app.run(port='8088', threaded=False, debug=True)
