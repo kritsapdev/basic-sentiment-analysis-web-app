@@ -22,18 +22,18 @@ Text Processing: The text is processed using NLTK to clean and prepare it for an
 Sentiment Analysis: The processed text is analyzed to determine its sentiment.<br>
 Output: The result is displayed on the web interface, indicating whether the sentiment is positive, negative, or neutral.<br>
 
-<h2>Live Demo<br>
-[Check out the live demo here.](https://flask-nltk-fl6g3ahlla-as.a.run.app/)
-
-Screenshots
+<h2>Live Demo</h2><br>
+https://flask-nltk-fl6g3ahlla-as.a.run.app/
+<br>
+<h2>Screenshots</h2><br>
 <img src="https://uppic.cloud/ib/pRg9lIAFDy.png">
+<br>
 
 
-The result page showing the sentiment analysis outcome.
+The result page showing the sentiment analysis outcome.<br>
 <img src="https://uppic.cloud/ib/49YODwjy35.png">
 
-Contact
-Feel free to reach out if you have any questions or suggestions:
+
 
 
 
