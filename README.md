@@ -1,8 +1,7 @@
-# basic-sentiment-analysis-web-app
-sentiment analysis web app
+# Basic sentiment analysis web app
 
-Overview
-<h2>This project is a web-based Sentiment Analysis application designed to analyze and determine the sentiment of user-provided text. Built with Flask, NLTK, and Bootstrap, the application is deployed in a serverless environment using Google Cloud Run, ensuring scalability and cost-effectiveness.</h2>
+<h2>Overview</h2>
+This project is a web-based Sentiment Analysis application designed to analyze and determine the sentiment of user-provided text. Built with Flask, NLTK, and Bootstrap, the application is deployed in a serverless environment using Google Cloud Run, ensuring scalability and cost-effectiveness.
 
 <h2>Features</h2>
 Real-time Sentiment Analysis: Quickly analyze the sentiment of any text input (Positive, Negative, Neutral).<br>
