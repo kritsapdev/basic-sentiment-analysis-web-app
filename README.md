@@ -33,8 +33,8 @@ The result page showing the sentiment analysis outcome.<br>
 <img src="https://uppic.cloud/ib/49YODwjy35.png">
 
 <h2>Credit</h2>
-https://python.plainenglish.io/sentiment-analysis-flask-web-app-using-python-and-nltkintroduction-a45f893fb724
-https://www.youtube.com/watch?v=7-s5ugThckY
+<li>https://python.plainenglish.io/sentiment-analysis-flask-web-app-using-python-and-nltkintroduction-a45f893fb724</li>
+<li>https://www.youtube.com/watch?v=7-s5ugThckY</li>
 
 
 
