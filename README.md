@@ -24,13 +24,6 @@ Output: The result is displayed on the web interface, indicating whether the sen
 <h2>Live Demo</h2><br>
 https://flask-nltk-fl6g3ahlla-as.a.run.app/
 <br>
-<h2>Screenshots</h2><br>
-<img src="https://uppic.cloud/ib/pRg9lIAFDy.png">
-<br>
-
-
-The result page showing the sentiment analysis outcome.<br>
-<img src="https://uppic.cloud/ib/49YODwjy35.png">
 
 <h2>Credit</h2>
 <li>https://python.plainenglish.io/sentiment-analysis-flask-web-app-using-python-and-nltkintroduction-a45f893fb724</li>
